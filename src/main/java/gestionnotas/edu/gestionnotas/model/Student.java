@@ -16,4 +16,9 @@ public class Student extends Person{
     }
 
 
+    public void addSubject(Subject subject) {
+        if(!subjectList.contains(subject)){
+            subjectList.add(subject);
+        }
+    }
 }
